@@ -1,0 +1,33 @@
+{
+  "name": "eslint-plugin-no-not-accumulator-reassign",
+  "version": "0.1.0",
+  "author": "Mathieu Dutour <mathieu@dutour.me>",
+  "description": "",
+  "main": "build/index.js",
+  "files": [
+    "build",
+    "config"
+  ],
+  "scripts": {
+    "test": "make test",
+    "prepublish": "make clean build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mathieudutour/eslint-plugin-no-not-accumulator-reassign"
+  },
+  "homepage": "https://github.com/mathieudutour/eslint-plugin-no-not-accumulator-reassign",
+  "bugs": "https://github.com/mathieudutour/eslint-plugin-no-not-accumulator-reassign/issues/",
+  "devDependencies": {
+    "@mathieudutour/js-fatigue": "^1.0.4",
+    "mocha": "^2.4.5"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "redux",
+    "duck",
+    "lint"
+  ],
+  "license": "MIT"
+}
