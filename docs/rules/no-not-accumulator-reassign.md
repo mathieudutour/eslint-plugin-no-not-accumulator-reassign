@@ -59,7 +59,7 @@ function foo(bar) {
 Examples of **incorrect** code for the `{ "props": true }` option:
 
 ```js
-/*eslint no-param-reassign: ["error", { "props": true }]*/
+/*eslint no-param-reassign: ["error", ['reduce'], { "props": true }]*/
 
 function foo(bar) {
     bar.prop = "value";
@@ -77,7 +77,7 @@ function foo(bar) {
 Examples of **correct** code for the `{ "props": true }` option with `"ignorePropertyModificationsFor"` set:
 
 ```js
-/*eslint no-param-reassign: ["error", { "props": true, "ignorePropertyModificationsFor": ["bar"] }]*/
+/*eslint no-param-reassign: ["error", ['reduce'], { "props": true, "ignorePropertyModificationsFor": ["bar"] }]*/
 
 function foo(bar) {
     bar.prop = "value";
